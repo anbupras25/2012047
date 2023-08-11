@@ -36,7 +36,7 @@ export default function Home() {
             <td>{item.departureTime.Hours}hrs{item.departureTime.Minutes}Mins{item.departureTime.Seconds}Secs</td>
             <td>{item.price.sleeper}</td>
             <td>{item.delayedBy}</td>
-           <Link to=""> <td><button>View</button></td></Link>
+           <Link to="/view"> <td><button>View</button></td></Link>
           </tr>
         ))}
       </tbody>
